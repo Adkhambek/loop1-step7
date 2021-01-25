@@ -1,0 +1,105 @@
+/* 
+#484956 for left card
+#e37b62 for line
+#aaaaaa for grey
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gr;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.card{
+    width: 60%;
+    height: 500px;
+    
+    background-color: #ffffff;
+    box-shadow: 5px 10px 20px -10px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+.card-left{
+    width: 35%;
+    background-color: #484956;
+    padding: 30px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-title
+{
+    font-size: 30px;
+    font-weight: 500;
+}
+.subtitle{
+    font-size: 30px;
+    font-weight: 300;
+}
+.line{
+    display: inline-block;
+    height: 3px;
+    width: 60px;
+    background-color: #e37b62;
+}
+.account-section{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.user-name{
+    font-size: 20px;
+    color: #ffffff;
+}
+.card-right{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-text{
+    padding: 30px;
+}
+.card-article{
+    font-size: 18px;
+    line-height: 25px;
+}
+.card-article::before{
+    content: "L";
+    font-size: 26px;
+    font-weight: 500;
+}
+.card-info{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.2);;
+}
+.info-right{
+    display: flex;
+}
+.comments{
+    display: flex;
+    align-items: center;
+}
+.comments-count{
+    color: #aaaaaa;
+    margin-left: 5px;
+}
+.more-icon{
+    margin-left: 30px;
+}
